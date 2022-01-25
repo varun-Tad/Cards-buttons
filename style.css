@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #e3e5e8;
+}
+
+
+/* COMPONENT ONE */
+
+
+#comp-one{
+    background-color: white;
+    width:350px;
+    margin-left:200px;
+    margin-top:200px;
+    display:grid;
+    grid-template-rows:30px 40px 40px;
+    grid-row-gap:20px;
+    padding-bottom:10px;
+    border-radius: 0.5rem;
+}
+
+
+#comp-one #header{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    border-bottom: 0.5px solid black;
+   margin-left:10px;
+   margin-right:10px;
+  
+}
+
+#comp-one #header #para{
+    margin-left:10px;
+    margin-bottom:10px;
+    font-weight: 600;
+}
+
+
+#comp-one #header #exit{
+    margin-right:10px;
+    cursor: pointer;
+    color:grey;
+}
+
+
+#comp-one #main{
+    display: flex;
+    margin-left:15px;
+}
+
+
+#comp-one #main p{
+    margin-left:10px;
+    margin-top:5px;
+}
+
+
+
+#comp-one #main small{
+    margin-left:10px;
+    color:grey;
+}
+
+
+
+#comp-one-btn #btn{
+    height:35px;
+    width: 300px;
+    margin-left:20px;
+    color:white;
+    background-color: black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   
+}
+
+
+
+
+/* COMPONENT TWO  */
+
+
+
+#comp-two{
+    background-color: white;
+    position:relative;
+    width:280px;
+    height:275px;
+    left:900px;
+    bottom:300px;
+    display:grid;
+    grid-template-rows:30px 40px 40px 40px 10px;
+    grid-row-gap:20px;
+    border-radius: 0.5rem;
+}
+
+
+#comp-two #header p{
+    margin-top:15px;
+    margin-left:15px;
+}
+
+#comp-two #main-one{
+    display:grid;
+    grid-template-columns: 30px 100px;
+    grid-column-gap:15px;
+    margin-left:10px;
+}
+
+
+
+#comp-two #main-two{
+    display:grid;
+    grid-template-columns: 30px 100px;
+    grid-column-gap:15px;
+    margin-left:10px;
+}
+
+#comp-two #main-three{
+    display:grid;
+    grid-template-columns: 30px 100px;
+    grid-column-gap:15px;
+    margin-left:10px;
+}
+
+small{
+    color:grey;
+}
+
+#footer a{
+    margin-left: 14px;
+    color:grey;
+}
+
